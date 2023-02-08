@@ -1,0 +1,123 @@
+
+#frame{
+    margin: auto;
+    width: 210px;
+    padding: 10px;
+    background-color: rgb(127, 229, 255);
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(255, 72, 0);
+    font-style: italic;
+    text-align: center;
+    box-shadow: 1px 1px 4px black;
+}
+#calcBody {
+    padding: 5px;
+    width: 200px;
+    margin: auto;
+    background-color: white;
+    
+}
+
+#screen {
+    width: 191px;
+    height: 70px;
+    font-size: 25px;
+    background-color: rgb(201, 255, 184);
+    color: rgb(51, 51, 51);
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+
+#buttons {
+    width: 200px;
+    margin: auto;
+    margin-top: 5px;
+    
+}
+
+.number {
+    width: 45px;
+    height: 45px;
+    margin: 1px;
+    background-color: beige;
+    border: 2px solid rgb(199, 199, 180);
+}
+
+.number:hover{
+    background-color: rgb(231, 231, 208);
+}
+.number:active{
+    background-color: rgb(212, 212, 190);
+}
+
+.igual {
+    width: 198px;
+    height: 45px;
+    margin: 1px;
+    background-color: beige;
+    border: 2px solid rgb(199, 199, 180);
+}
+
+.igual:hover{
+    background-color: rgb(231, 231, 208);
+}
+
+.igual:active{
+    background-color: rgb(212, 212, 190);
+}
+
+#bateria{
+    width: 97px;
+    height: 22px;
+    margin-left: 95px;
+    margin-top: 5px;
+    background-color: black;
+
+}
+.element{
+    height: 16px;
+    width: 19px;
+    border: 3px solid gray;
+    display: inline-block;
+    margin-left: -3px;
+}
+#opDisplay{
+    text-align: left;
+    color:rgb(202, 202, 202);
+    font-size: 16px;
+    font-style: normal;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.dispOperacion{
+    margin-left: 2px;
+}
+
+.buttonback{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    width: auto;
+    height: 50px;
+    background: linear-gradient(135deg, #ff0083, #d000ff);
+    color: white;
+    transition: opacity 0.5s, box-shadow 0.5s;
+}
+
+.buttonback:hover{
+    opacity: 0.75;
+    box-shadow: 0px 0px 4px black;
+}
+
+.buttonback:active{
+    opacity: 1;
+    box-shadow: 0px 0px 0px black;
+    transition: opacity 0.1s, box-shadow 0.1s;
+}
